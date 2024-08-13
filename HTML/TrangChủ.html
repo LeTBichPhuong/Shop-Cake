@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phương Bakery</title>
+    <link rel="stylesheet" href="/CSS/TrangChu.css">
+    <link rel="website icon" href="/IMG/Logo.png">
+    <!-- Boxicons CSS -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+        <!--Header-->
+        <div class="wrapper">
+            <div class="header">
+                <nav class="containerr">
+                    <a href="/HTML/TrangChủ.html" id="logo">
+                        <img src="/IMG/Logo.png" alt="">
+                    </a>
+                    <ul class="main-menu">
+                        <li><a href="/HTML/TrangChủ.html">Trang Chủ</a></li>
+                        <li><a href="/HTML/BánhSinhNhật.html">Bánh Sinh Nhật</a>
+                            <ul class="sub-menu">
+                                <li><a href="/HTML/BánhSinhNhậtBéTrai.html">Bánh Sinh Nhật Bé Trai</a></li>
+                                <li><a href="/HTML/BánhSinhNhậtBéGái.html">Bánh Sinh Nhật Bé Gái</a></li>
+                                <li><a href="/HTML/BánhSinhNhật.html">Bánh Theo Yêu Cầu</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="/HTML/Bánhmỳ&Bánhmặn.html">Bánh Mỳ & Bánh Mặn</a>
+                            <ul class="sub-menu">
+                                <li><a href="/HTML/BánhMỳ.html">Bánh Mỳ</a></li>
+                                <li><a href="/HTML/Bánhmặn.html">Bánh Mặn</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="/HTML/Cookies&MiniCake.html">Cookies & Mini Cake</a>
+                            <ul class="sub-menu">
+                                <li><a href="/HTML/Cookies.html">Cookies</a></li>
+                                <li><a href="/HTML/MiniCake.html">Mini Cake</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="/HTML/TinTức.html">Tin Tức</a></li>
+                    </ul>
+                </nav>
+                <div class="search-container">
+                    <form action="/action_page.php">
+                      <input type="text" placeholder="Tìm kiếm..." name="search">
+                      <button type="submit"><i class="fa fa-search"><img src="/IMG/icon search.png" alt="" width="30px" height="30px"></i></button>
+                    </form>
+                    
+                </div>
+                <div class="login_header"> 
+                    <div class="login">
+                        <a href="/HTML/ĐăngNhập.html" class="product-cat"><img src="/IMG/login2.png" alt="" width="30px" height="30px"></a>
+                    </div>
+                </div>
+                <div class="cart_header">
+                    <div class="header_cart-icon">
+                        <a href="" class="product-cart"><img src="/IMG/giỏ hàng.png" alt="" width="30px" height="30px"></a>
+                        <div class="totalQuantity">0</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End header -->
+
+        <!-- Slider -->
+        <div class="slider">
+            <div class="list">
+                <div class="item">
+                    <a href="/HTML/TrangChủ.html"><img src="/IMG/Slider.png" alt=""></a>
+                </div>
+                <div class="item">
+                    <a href="/HTML/TrangChủ.html"><img src="/IMG/Slider.png" alt=""></a>
+                </div>
+                <div class="item">
+                    <a href="/HTML/TrangChủ.html"><img src="/IMG/Slider.png" alt=""></a>
+                </div>
+                <div class="item">
+                    <a href="/HTML/TrangChủ.html"><img src="/IMG/Slider.png" alt=""></a>
+                </div>
+                <div class="item">
+                    <a href="/HTML/TrangChủ.html"><img src="/IMG/Slider.png" alt=""></a>
+                </div>
+            </div>
+            <div class="buttons">
+                <button id="prev"><</button>
+                <button id="next">></button>
+            </div>
+            <ul class="dots">
+                <li class="active"></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </div>
+    
+        <script src="/Javascript/slider.js"></script>
+        <!-- End slider -->
+        
+        <!-- Main -->
+        <div class="main-sp">
+            <!-- Bánh Sinh Nhật -->
+            <div class="namesp">
+                <a href="/HTML/BánhSinhNhật.html"><h2>Bánh Sinh Nhật</h2></a>
+            </div>
+            <ul class="products">
+                <li>
+                    <div class="product-item">
+                        <div class="products-top">
+                            <img src="/imgBSN/Bánh gato kem macaron.jpg" alt="">
+                            <button class="button">Mua Ngay</button>
+                        </div>
+                        <div class="product-info">
+                            <a href="#link" class="product-cat">Bánh sinh nhật</a>
+                            <a href="#link" class="product-name">Bánh sinh nhật macaron</a>
+                            <div class="product-price">Giá: 350.000VNĐ</div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="product-item">
+                        <div class="products-top">
+                            <img src="/imgBSN/bánh sinh nhật 9.jpg" alt="">
+                            <button class="button">Mua Ngay</button>
+                        </div>
+                        <div class="product-info">
+                            <a href="#link" class="product-cat">Bánh sinh nhật</a>
+                            <a href="#link" class="product-name">Bánh sinh nhật 2023</a>
+                            <div class="product-price">Giá: 350.000VNĐ</div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="product-item">
+                        <div class="products-top">
+                            <img src="/imgBSN/Bánh hoa quả mix.jpg" alt="">
+                            <button class="button">Mua Ngay</button>
+                        </div>
+                        <div class="product-info">
+                            <a href="#link" class="product-cat">Bánh sinh nhật</a>
+                            <a href="#link" class="product-name">Bánh sinh nhật hoa quả</a>
+                            <div class="product-price">Giá: 300.000VNĐ</div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="product-item">
+                        <div class="products-top">
+                            <img src="/imgBSN/Bánh gato vị cam việt quất.jpg" alt="">
+                            <button class="button">Mua Ngay</button>
+                        </div>
+                        
+                        <div class="product-info">
+                            <a href="#link" class="product-cat">Bánh sinh nhật</a>
+                            <a href="#link" class="product-name">Bánh sinh nhật vị cam mix việt quất</a>
+                            <div class="product-price">Giá: 380.000VNĐ</div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="product-item">
+                        <div class="products-top">
+                            <img src="/imgBSN/Bánh gato vị scl mix dâu.jpg" alt="">
+                            <button class="button">Mua Ngay</button>
+                        </div>
+                        <div class="product-info">
+                            <a href="#link" class="product-cat">Bánh sinh nhật</a>
+                            <a href="#link" class="product-name">Bánh sinh nhật vị socola mix dâu</a>
+                            <div class="product-price">Giá: 350.000VNĐ</div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="product-item">
+                        <div class="products-top">
+                            <img src="/imgBSN/bánh sinh nhật 10.jpg" alt="">
+                            <button class="button">Mua Ngay</button>
+                        </div>
+                        <div class="product-info">
+                            <a href="#link" class="product-cat">Bánh sinh nhật</a>
+                            <a href="#link" class="product-name">Bánh sinh nhật việt quất</a>
+                            <div class="product-price">Giá: 350.000VNĐ</div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="product-item">
+                        <div class="products-top">
+                            <img src="/imgBSN/Bánh gato vị dâu.jpg" alt="">
+                            <button class="button">Mua Ngay</button>
+                        </div>
+                        <div class="product-info">
+                            <a href="#link" class="product-cat">Bánh sinh nhật</a>
+                            <a href="#link" class="product-name">Bánh sinh nhật vị dâu</a>
+                            <div class="product-price">Giá: 350.000VNĐ</div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="product-item">
+                        <div class="products-top">
+                            <img src="/imgBSN/Bánh gato xoài.jpg" alt="">
+                            <button class="button">Mua Ngay</button>
+                        </div>
+                        <div class="product-info">
+                            <a href="#link" class="product-cat">Bánh sinh nhật</a>
+                            <a href="#link" class="product-name">Bánh sinh nhật kem xoài</a>
+                            <div class="product-price">Giá: 350.000VNĐ</div>
+                        </div>
+                    </div>
+                    
+                </li> 
+            </ul>
+            <div class="box">
+                <div class="box box1">
+                    <a href="/HTML/BánhSinhNhật.html">Xem Thêm</a>
+                </div>
+            </div>
+            <hr>
+            <!-- End Bánh Sinh Nhật -->
+            <!-- Bánh Mặn -->
+            <div class="namesp">
+                <a href="/HTML/Bánhmỳ&Bánhmặn.html"><h2>Bánh Mỳ & Bánh Mặn</h2></a>
+            </div>
+            <ul class="products">
+                <li>
+                    <div class="product-item">
+                        <div class="products-top">
+                            <img src="/imgBM/Bánh mỳ bơ tỏi.jpg" alt="">
+                            <button class="button">Mua Ngay</button>
+                        </div>
+                        <div class="product-info">
+                            <a href="#link" class="product-cat">Bánh mặn</a>
+                            <a href="#link" class="product-name">Bánh mỳ bơ tỏi</a>
+                            <div class="product-price">Giá: 150.000VNĐ</div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="product-item">
+                        <div class="products-top">
+                            <img src="/imgBM/Bánh nướng ngô phô mai.jpg" alt="">
+                            <button class="button">Mua Ngay</button>
+                        </div>
+                        <div class="product-info">
+                            <a href="#link" class="product-cat">Bánh mặn</a>
+                            <a href="#link" class="product-name">Bánh nướng ngô phô mai</a>
+                            <div class="product-price">Giá: 20.000VNĐ/1 chiếc</div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="product-item">
+                        <div class="products-top">
+                            <img src="/imgBM/Bánh pizza.jpg" alt="">
+                            <button class="button">Mua Ngay</button>
+                        </div>
+                        <div class="product-info">
+                            <a href="#link" class="product-cat">Bánh mặn</a>
+                            <a href="#link" class="product-name">Bánh pizza</a>
+                            <div class="product-price">Giá: 150.000-300.000VNĐ</div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="product-item">
+                        <div class="products-top">
+                            <img src="/imgBM/bánh ruốc.jpg" alt="">
+                            <button class="button">Mua Ngay</button>
+                        </div>
+                        <div class="product-info">
+                            <a href="#link" class="product-cat">Bánh mặn</a>
+                            <a href="#link" class="product-name">Bánh ruốc </a>
+                            <div class="product-price">Giá: 50.000VNĐ</div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="product-item">
+                        <div class="products-top">
+                            <img src="/imgBM/Bánh sừng bò.jpg" alt="">
+                            <button class="button">Mua Ngay</button>
+                        </div>
+                        <div class="product-info">
+                            <a href="#link" class="product-cat">Bánh mặn</a>
+                            <a href="#link" class="product-name">Bánh sừng bò</a>
+                            <div class="product-price">Giá: 70.000VNĐ</div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="product-item">
+                        <div class="products-top">
+                            <img src="/imgBM/Bánh trứng nướng.jpg" alt="">
+                            <button class="button">Mua Ngay</button>
+                        </div>
+                        <div class="product-info">
+                            <a href="#link" class="product-cat">Bánh mặn</a>
+                            <a href="#link" class="product-name">Bánh trứng nướng</a>
+                            <div class="product-price">Giá: 17.000VNĐ</div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="product-item">
+                        <div class="products-top">
+                            <img src="/imgBM/Bánh waffle.jpg" alt="">
+                            <button class="button">Mua Ngay</button>
+                        </div>
+                        <div class="product-info">
+                            <a href="#link" class="product-cat">Bánh mặn</a>
+                            <a href="#link" class="product-name">Bánh waffle</a>
+                            <div class="product-price">Giá: 130.000VNĐ</div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="product-item">
+                        <div class="products-top">
+                            <img src="/imgBM/Bánh xúc xích.jpg" alt="">
+                            <button class="button">Mua Ngay</button>
+                        </div>
+                        <div class="product-info">
+                            <a href="#link" class="product-cat">Bánh mặn</a>
+                            <a href="#link" class="product-name">Bánh xúc xích</a>
+                            <div class="product-price">Giá: 100.000VNĐ</div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+            <div class="box">
+                <div class="box box1">
+                    <a href="/HTML/Bánhmỳ&Bánhmặn.html">Xem Thêm</a>
+                </div>
+            </div>
+            <hr>
+            <!-- End Bánh Mặn -->
+            <!-- Cookies & Mini Cake -->
+            <div class="namesp">
+                <a href="/HTML/Cookies&MiniCake.html"><h2>Cookies & Mini Cake</h2></a>
+            </div>
+            <ul class="products">
+                <li>
+                    <div class="product-item">
+                        <div class="products-top">
+                            <img src="/IMGMN/Bánh kem cam.jpg" alt="">
+                            <button class="button">Mua Ngay</button>
+                        </div>
+                        <div class="product-info">
+                            <a href="#link" class="product-cat">Cookies & Minicake</a>
+                            <a href="#link" class="product-name">Bánh kem mini cam</a>
+                            <div class="product-price">Giá: 150.000VNĐ</div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="product-item">
+                        <div class="products-top">
+                            <img src="/IMGMN/Bánh kem cuộn dâu.jpg" alt="">
+                            <button class="button">Mua Ngay</button>
+                        </div>
+                        <div class="product-info">
+                            <a href="#link" class="product-cat">Cookies & Minicake</a>
+                            <a href="#link" class="product-name">Bánh kem cuộn mini dâu</a>
+                            <div class="product-price">Giá: 30.000VNĐ</div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="product-item">
+                        <div class="products-top">
+                            <img src="/IMGMN/Bánh kem cuộn scl.jpg" alt="">
+                            <button class="button">Mua Ngay</button>
+                        </div>
+                        <div class="product-info">
+                            <a href="#link" class="product-cat">Cookies & Minicake</a>
+                            <a href="#link" class="product-name">Bánh kem cuộn mini socola</a>
+                            <div class="product-price">Giá: 30.000VNĐ</div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="product-item">
+                        <div class="products-top">
+                            <img src="/IMGMN/Bánh kem dâu.jpg" alt="">
+                            <button class="button">Mua Ngay</button>
+                        </div>
+                        <div class="product-info">
+                            <a href="#link" class="product-cat">Cookies & Minicake</a>
+                            <a href="#link" class="product-name">Bánh kem mini dâu</a>
+                            <div class="product-price">Giá: 150.000VNĐ</div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="product-item">
+                        <div class="products-top">
+                            <img src="/IMGMN/Bánh kem nho xanh.jpg" alt="">
+                            <button class="button">Mua Ngay</button>
+                        </div>
+                        <div class="product-info">
+                            <a href="#link" class="product-cat">Cookies & Minicake</a>
+                            <a href="#link" class="product-name">Bánh kem mini nho xanh</a>
+                            <div class="product-price">Giá: 150.000VNĐ</div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="product-item">
+                        <div class="products-top">
+                            <img src="/IMGMN/Bánh quy matcha.jpg" alt="">
+                            <button class="button">Mua Ngay</button>
+                        </div>
+                        <div class="product-info">
+                            <a href="#link" class="product-cat">Cookies & Minicake</a>
+                            <a href="#link" class="product-name">Cookies Matcha</a>
+                            <div class="product-price">Giá: 120.000VNĐ/20 cái</div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="product-item">
+                        <div class="products-top">
+                            <img src="/IMGMN/Bánh quy oreo.jpg" alt="">
+                            <button class="button">Mua Ngay</button>
+                        </div>
+                        <div class="product-info">
+                            <a href="#link" class="product-cat">Cookies & Minicake</a>
+                            <a href="#link" class="product-name">Cookies Oreo</a>
+                            <div class="product-price">Giá: 120.000VNĐ/20 cái</div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="product-item">
+                        <div class="products-top">
+                            <img src="/IMGMN/Bánh macaron dâu.jpg" alt="">
+                            <button class="button">Mua Ngay</button>
+                        </div>
+                        <div class="product-info">
+                            <a href="#link" class="product-cat">Cookies & Minicake</a>
+                            <a href="#link" class="product-name">Macaron gấu dâu</a>
+                            <div class="product-price">Giá: 120.000VNĐ/6 cái</div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+            <div class="box">
+                <div class="box box1">
+                    <a href="/HTML/Cookies&MiniCake.html">Xem Thêm</a>
+                </div>
+            </div>
+        </div>
+        <!-- Nút quay lại đầu trang -->
+        <div class="backtop">
+            <i class='bx bxs-chevron-up'></i>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+        <script>
+            $(document).ready(function(){
+                $(window).scroll(function(){
+                    if ($(this).scrollTop()){
+                        $('.backtop').fadeIn();
+                    } else {
+                        $('.backtop').fadeOut();
+                    }
+                })
+                $(".backtop").click(function(){
+                    $("html, body").animate({scrollTop : 0},800);
+                })
+            })
+        </script> 
+        <!-- End nút quay lại đầu trang -->
+        <!-- End main -->
+
+        <!-- Footer -->
+        <footer>
+            <div class="row">
+                <div class="boxcenter2">
+                    <div class="boxfooter1 mrr2">
+                        <h4>Liên hệ</h4>
+                        <div class="add"><img src="/IMG/logoemail.png" alt="" class="add-logo">phuongbon1524@gmail.com</div>
+                        <div class="add"><a href="#"><img src="/IMG/logoface.png" alt="" class="add-logo">Facebook</a></div>
+                    </div>
+                    <div class="boxfooter2 mrr2">
+                        <h4>Hướng dẫn</h4>
+                        <div class="add"><a href="#">Điều khoản</a></div>
+                        <div class="add"><a href="#">Hướng dẫn mua hàng</a></div>
+                        <div class="add"><a href="#">Chính sách đổi trả</a></div>
+                        <div class="add"><a href="#">Bảo mật thông tin KH</a></div>
+                    </div>
+                    <div class="boxfooter3">
+                        <h4>Địa Điểm</h4>
+                        <div class="add">17/20 Hào Nam, Ô Chợ Dừa, Đống Đa, Hà Nội</div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <div class="copyright">
+            <p>Copyright © 2023 by Phương Bakery - Lê Thị Bích Phương</p>
+        </div>
+        <!-- End footer -->
+</body>
+</html>

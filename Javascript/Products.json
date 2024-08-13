@@ -1,0 +1,338 @@
+[
+    {
+        "id": 1,
+        "name": "Bánh sinh nhật macaron",
+        "price": 350.000,
+        "image": "/imgBSN/Bánh gato kem macaron.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Bánh sinh nhật 2023",
+        "price": 350.000,
+        "image": "/imgBSN/bánh sinh nhật 9.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Bánh sinh nhật hoa quả",
+        "price": 300.000,
+        "image": "/imgBSN/Bánh hoa quả mix.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Bánh sinh nhật vị cam mix việt quất",
+        "price": 380.000,
+        "image": "/imgBSN/Bánh gato vị cam việt quất.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Bánh sinh nhật vị socola mix dâu",
+        "price": 350.000,
+        "image": "/imgBSN/Bánh gato vị scl mix dâu.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Bánh sinh nhật việt quất",
+        "price": 350.000,
+        "image": "/imgBSN/bánh sinh nhật 10.jpg"
+    },
+    {
+        "id": 7,
+        "name": "Bánh sinh nhật vị dâu",
+        "price": 350.000,
+        "image": "/imgBSN/Bánh gato vị dâu.jpg"
+    },
+    {
+        "id": 8,
+        "name": "Bánh sinh nhật kem xoài",
+        "price": 350.000,
+        "image": "/imgBSN/Bánh gato xoài.jpg"
+    },
+    {
+        "id": 9,
+        "name": "Bánh sinh nhật 2023",
+        "price": 350.000,
+        "image": "/imgBSN/bánh sinh nhật 1.jpg"
+    },
+    {
+        "id": 10,
+        "name": "Bánh sinh nhật vịt",
+        "price": 350.000,
+        "image": "/imgBSN/bánh sinh nhật 2.jpg"
+    },
+    {
+        "id": 11,
+        "name": "Bánh sinh nhật 2023",
+        "price": 350.000,
+        "image": "/imgBSN/bánh sinh nhật 3.jpg"
+    },
+    {
+        "id": 12,
+        "name": "Bánh sinh nhật noel",
+        "price": 350.000,
+        "image": "/imgBSN/bánh sinh nhật 4.jpg"
+    },
+    {
+        "id": 13,
+        "name": "Bánh sinh nhật gấu hồng",
+        "price": 350.000,
+        "image": "/imgBSN/bánh sinh nhật 5.jpg"
+    },
+    {
+        "id": 14,
+        "name": "Bánh sinh nhật noel",
+        "price": 350.000,
+        "image": "/imgBSN/bánh sinh nhật 6.jpg"
+    },
+    {
+        "id": 15,
+        "name": "Bánh sinh nhật công chúa tóc dài",
+        "price": 350.000,
+        "image": "/imgBSN/bánh sinh nhật 7.jpg"
+    },
+    {
+        "id": 16,
+        "name": "Bánh sinh nhật thỏ",
+        "price": 350.000,
+        "image": "/imgBSN/bánh sinh nhật 8.jpg"
+    },
+    {
+        "id": 17,
+        "name": "Bánh mỳ bơ tỏi",
+        "price": 150.000,
+        "image": "/imgBM/Bánh mỳ bơ tỏi.jpg"
+    },
+    {
+        "id": 18,
+        "name": "Bánh nướng ngô phô mai",
+        "price": "20.000/1 chiếc",
+        "image": "/imgBM/Bánh nướng ngô phô mai.jpg"
+    },
+    {
+        "id": 19,
+        "name": "Bánh pizza",
+        "price": 150.000,
+        "image": "/imgBM/Bánh pizza.jpg"
+    },
+    {
+        "id": 20,
+        "name": "Bánh ruốc",
+        "price": 50.000,
+        "image": "/imgBM/bánh ruốc.jpg"
+    },
+    {
+        "id": 21,
+        "name": "Bánh sừng bò",
+        "price": 70.000,
+        "image": "/imgBM/Bánh sừng bò.jpg"
+    },
+    {
+        "id": 22,
+        "name": "Bánh trứng nướng",
+        "price": 17.000,
+        "image": "/imgBM/Bánh trứng nướng.jpg"
+    },
+    {
+        "id": 23,
+        "name": "Bánh waffle",
+        "price": 130.000,
+        "image": "/imgBM/Bánh waffle.jpg"
+    },
+    {
+        "id": 24,
+        "name": "Bánh xúc xích",
+        "price": 100.000,
+        "image": "/imgBM/Bánh xúc xích.jpg"
+    },
+    {
+        "id": 25,
+        "name": "Bánh xúc xích",
+        "price": 100.000,
+        "image": "/imgBM/Bánh xúc xích.jpg"
+    },
+    {
+        "id": 26,
+        "name": "Bánh dừa hạnh nhân",
+        "price": 30.000,
+        "image": "/imgBM/bánh dừa hạnh nhân.jpg"
+    },
+    {
+        "id": 27,
+        "name": "Bánh gối",
+        "price": 50.000,
+        "image": "/imgBM/bánh gối.jpg"
+    },
+    {
+        "id": 28,
+        "name": "Bánh mỳ",
+        "price": 50.000,
+        "image": "/imgBM/bánh mỳ.jpg"
+    },
+    {
+        "id": 29,
+        "name": "Bánh paparoti",
+        "price": 30.000,
+        "image": "/imgBM/bánh paparoti.jpg"
+    },
+    {
+        "id": 30,
+        "name": "Bánh vòng",
+        "price": 30.000,
+        "image": "/imgBM/bánh vòng.jpg"
+    },
+    {
+        "id": 31,
+        "name": "Bánh sừng bò hạnh nhân",
+        "price": 30.000,
+        "image": "/imgBM/bánh sừng bò hạnh nhân.jpg"
+    },
+    {
+        "id": 32,
+        "name": "Bánh mỳ hoa cúc",
+        "price": 100.000,
+        "image": "/imgBM/bánh hoa cúc.jpg"
+    },
+    {
+        "id": 33,
+        "name": "Bánh xoắn socola",
+        "price": 50.000,
+        "image": "/imgBM/bánh xoắn.jpg"
+    },
+    {
+        "id": 34,
+        "name": "Bánh kem mini cam",
+        "price": 150.000,
+        "image": "/IMGMN/Bánh kem cam.jpg"
+    },
+    {
+        "id": 35,
+        "name": "Bánh kem cuộn mini dâu",
+        "price": 30.000,
+        "image": "/IMGMN/Bánh kem cuộn dâu.jpg"
+    },
+    {
+        "id": 36,
+        "name": "Bánh kem cuộn mini socola",
+        "price": 30.000,
+        "image": "/IMGMN/Bánh kem cuộn scl.jpg"
+    },
+    {
+        "id": 37,
+        "name": "Bánh kem mini dâu",
+        "price": 150.000,
+        "image": "/IMGMN/Bánh kem dâu.jpg"
+    },
+    {
+        "id": 38,
+        "name": "Bánh kem mini nho xanh",
+        "price": 150.000,
+        "image": "/IMGMN/Bánh kem nho xanh.jpg"
+    },
+    {
+        "id": 39,
+        "name": "Bánh quy matcha.jpg",
+        "price": "120.000/20 cái",
+        "image": "/IMGMN/Cookies Matcha"
+    },
+    {
+        "id": 40,
+        "name": "Cookies Oreo",
+        "price": "120.000/20 cái",
+        "image": "/IMGMN/Bánh quy oreo.jpg"
+    },
+    {
+        "id": 41,
+        "name": "Macaron gấu dâu",
+        "price": "120.000/6 cái",
+        "image": "/IMGMN/Bánh macaron dâu.jpg"
+    },
+    {
+        "id": 42,
+        "name": "Macaron gấu dâu",
+        "price": "120.000/6 cái",
+        "image": "/IMGMN/Macaron gấu dâu.jpg"
+    },
+    {
+        "id": 43,
+        "name": "Cookies gấu socola",
+        "price": "120.000/20 cái",
+        "image": "/IMGMN/Bánh quy gấu scl.jpg"
+    },
+    {
+        "id": 44,
+        "name": "Cookies gấu socola",
+        "price": "120.000/20 cái",
+        "image": "/IMGMN/Bánh quy scl gấu2.jpg"
+    },
+    {
+        "id": 45,
+        "name": "Bánh kem vị cam",
+        "price": 120.000,
+        "image": "/IMGMN/bánh cam.jpg"
+    },
+    {
+        "id": 46,
+        "name": "Bánh kem dưa hấu",
+        "price": 120.000,
+        "image": "/IMGMN/bánh dưa hấu.jpg"
+    },
+    {
+        "id": 47,
+        "name": "Bánh kem vị chanh",
+        "price": "120.000/3 cái",
+        "image": "/IMGMN/bánh kem chanh.jpg"
+    },
+    {
+        "id": 48,
+        "name": "Bánh kem dâu",
+        "price": 120.000,
+        "image": "/IMGMN/bánh kem dâu2.jpg"
+    },
+    {
+        "id": 49,
+        "name": "Bánh kem matcha",
+        "price": 120.000,
+        "image": "/IMGMN/bánh matcha.jpg"
+    },
+    {
+        "id": 50,
+        "name": "Cookies đào",
+        "price": "120.000/20 cái",
+        "image": "/IMGMN/bánh quy đâò.jpg"
+    },
+    {
+        "id": 51,
+        "name": "Cookies hình lá",
+        "price": "120.000/20 cái",
+        "image": "/IMGMN/bánh quy lá.jpg"
+    },
+    {
+        "id": 52,
+        "name": "Cookies hình chú lợn",
+        "price": "120.000/20 cái",
+        "image": "/IMGMN/bánh quy lợn.jpg"
+    },
+    {
+        "id": 53,
+        "name": "Cookies nấm",
+        "price": "120.000/20 cái",
+        "image": "/IMGMN/bánh quy nấm.jpg"
+    },
+    {
+        "id": 54,
+        "name": "Cookies hình chú nhím",
+        "price": "120.000/20 cái",
+        "image": "/IMGMN/bánh quy nhím.jpg"
+    },
+    {
+        "id": 55,
+        "name": "Cookies hình trái tim",
+        "price": "120.000/20 cái",
+        "image": "/IMGMN/bánh quy trái tim.jpg"
+    },
+    {
+        "id": 56,
+        "name": "Bánh kem khoai môn",
+        "price": 120.000,
+        "image": "/IMGMN/bánh khoai môn.jpg"
+    }
+]

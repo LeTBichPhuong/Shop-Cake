@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng Ký</title>
+    <link rel="stylesheet" href="/CSS/Đăng Nhập.css">
+    <link rel="website icon" href="/IMG/Logo.png">
+    <!-- Boxicons CSS -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <!--Header-->
+        <div class="wrapper">
+            <div class="header">
+                <nav class="containerr">
+                    <a href="" id="logo">
+                        <img src="/IMG/Logo.png" alt="">
+                    </a>
+                    <ul class="main-menu">
+                        <li><a href="/HTML/TrangChủ.html">Trang Chủ</a></li>
+                        <li><a href="/HTML/BánhSinhNhật.html">Bánh Sinh Nhật</a>
+                            <ul class="sub-menu">
+                                <li><a href="/HTML/BánhSinhNhậtBéTrai.html">Bánh Sinh Nhật Bé Trai</a></li>
+                                <li><a href="/HTML/BánhSinhNhậtBéGái.html">Bánh Sinh Nhật Bé Gái</a></li>
+                                <li><a href="/HTML/BánhSinhNhật.html">Bánh Theo Yêu Cầu</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="/HTML/Bánhmỳ&Bánhmặn.html">Bánh Mỳ & Bánh Mặn</a>
+                            <ul class="sub-menu">
+                                <li><a href="/HTML/BánhMỳ.html">Bánh Mỳ</a></li>
+                                <li><a href="/HTML/Bánhmặn.html">Bánh Mặn</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="/HTML/Cookies&MiniCake.html">Cookies & Mini Cake</a>
+                            <ul class="sub-menu">
+                                <li><a href="/HTML/Cookies.html">Cookies</a></li>
+                                <li><a href="/HTML/MiniCake.html">Mini Cake</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="/HTML/TinTức.html">Tin Tức</a></li>
+                    </ul>
+                </nav>
+                <div class="search-container">
+                    <form action="/action_page.php">
+                      <input type="text" placeholder="Tìm kiếm..." name="search">
+                      <button type="submit"><i class="fa fa-search"><img src="/IMG/icon search.png" alt="" width="30px" height="30px"></i></button>
+                    </form>
+                    
+                </div>
+                <div class="login_header"> 
+                    <div class="login">
+                        <a href="/HTML/ĐăngNhập.html" class="product-cat"><img src="/IMG/login2.png" alt="" width="30px" height="30px"></a>
+                    </div>
+                </div>
+                <div class="cart_header">
+                    <div class="header_cart-icon">
+                        <a href="" class="product-cart"><img src="/IMG/giỏ hàng.png" alt="" width="30px" height="30px"></a>
+                        <div class="totalQuantity">0</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <!-- End header -->
+
+    <!-- Đăng Ký -->
+        <section class="container forms">
+            <div class="form login">
+                <div class="form-content">
+                    <h2>Đăng Ký</h2>
+                    <form action="#">
+                        <div class="field input-field">
+                            <input id="username" type="text" placeholder="Tên"/>
+                        </div>
+                        <div class="field input-field">
+                            <input id="email" type="text" placeholder="Email"/>
+                        </div>
+                        <div class="field input-field">
+                            <input id="password" type="password" placeholder="Mật Khẩu"/>
+                        </div>
+                        <div class="field input-field">
+                            <input id="password" type="password" placeholder="Nhập lại mật khẩu"/>
+                        </div>
+                        <div class="field button-field">
+                            <button class="btn btn-signup">Đăng Ký</button>
+                        </div>
+                    </form>
+        
+                    <div class="form-link">
+                        <span>Bạn đã có tài khoản? <a href="/HTML/ĐăngNhập.html" class="login-link">Đăng Nhập</a></span>
+                    </div>
+                </div>
+        
+                <div class="line"></div>
+        
+                <div class="media-options">
+                    <a href="#" class="field facebook">
+                        <i class='bx bxl-facebook facebook-icon'></i>
+                        <span>Đăng ký bằng facebook</span>
+                    </a>
+                </div>
+        
+                <div class="media-options">
+                    <a href="#" class="field google">
+                        <img src="/IMG/google.png" alt="" class="google-img">
+                        <span>Đăng ký bằng Google</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+    <!-- End đăng Ký -->
+    <!-- Javascript -->
+    <script src="/Javascript/Signup.js"></script>
+</body>
+</html>

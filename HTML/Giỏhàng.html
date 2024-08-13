@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giỏ Hàng</title>
+    <link rel="stylesheet" href="/CSS/Giỏhàng.css">
+    <link rel="website icon" href="/IMG/Logo.png">
+</head>
+<body>
+    <!--Header-->
+    <div class="wrapper">
+        <div class="header">
+            <nav class="containerr">
+                <a href="/HTML/TrangChủ.html" id="logo">
+                    <img src="/IMG/Logo.png" alt="">
+                </a>
+                <ul class="main-menu">
+                    <li><a href="/HTML/TrangChủ.html">Trang Chủ</a></li>
+                    <li><a href="/HTML/BánhSinhNhật.html">Bánh Sinh Nhật</a>
+                        <ul class="sub-menu">
+                            <li><a href="/HTML/BánhSinhNhậtBéTrai.html">Bánh Sinh Nhật Bé Trai</a></li>
+                            <li><a href="/HTML/BánhSinhNhậtBéGái.html">Bánh Sinh Nhật Bé Gái</a></li>
+                            <li><a href="/HTML/BánhSinhNhật.html">Bánh Theo Yêu Cầu</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="/HTML/Bánhmỳ&Bánhmặn.html">Bánh Mỳ & Bánh Mặn</a>
+                        <ul class="sub-menu">
+                            <li><a href="/HTML/BánhMỳ.html">Bánh Mỳ</a></li>
+                            <li><a href="/HTML/Bánhmặn.html">Bánh Mặn</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="/HTML/Cookies&MiniCake.html">Cookies & Mini Cake</a>
+                        <ul class="sub-menu">
+                            <li><a href="/HTML/Cookies.html">Cookies</a></li>
+                            <li><a href="/HTML/MiniCake.html">Mini Cake</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="/HTML/TinTức.html">Tin Tức</a></li>
+                </ul>
+            </nav>
+            <div class="search-container">
+                <form action="/action_page.php">
+                  <input type="text" placeholder="Tìm kiếm..." name="search">
+                  <button type="submit"><i class="fa fa-search"><img src="/IMG/icon search.png" alt="" width="30px" height="30px"></i></button>
+                </form>
+                
+            </div>
+            <div class="login_header"> 
+                <div class="login">
+                    <a href="/HTML/ĐăngNhập.html" class="product-cat"><img src="/IMG/login2.png" alt="" width="30px" height="30px"></a>
+                </div>
+            </div>
+            <div class="cart_header">
+                <div class="header_cart-icon">
+                    <a href="/HTML/Giỏhàng.html" class="product-cart"><img src="/IMG/giỏ hàng.png" alt="" width="30px" height="30px"></a>
+                    <div class="totalQuantity">0</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End header -->
+
+    <!-- Slider -->
+    <div class="slider">
+        <div class="list">
+            <div class="item">
+                <a href="/HTML/TrangChủ.html"><img src="/IMG/Slider.png" alt=""></a>
+            </div>
+            <div class="item">
+                <a href="/HTML/TrangChủ.html"><img src="/IMG/Slider.png" alt=""></a>
+            </div>
+            <div class="item">
+                <a href="/HTML/TrangChủ.html"><img src="/IMG/Slider.png" alt=""></a>
+            </div>
+            <div class="item">
+                <a href="/HTML/TrangChủ.html"><img src="/IMG/Slider.png" alt=""></a>
+            </div>
+            <div class="item">
+                <a href="/HTML/TrangChủ.html"><img src="/IMG/Slider.png" alt=""></a>
+            </div>
+        </div>
+        <div class="buttons">
+            <button id="prev"><</button>
+            <button id="next">></button>
+        </div>
+        <ul class="dots">
+            <li class="active"></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </div>
+
+    <script src="/Javascript/slider.js"></script>
+    <!-- End slider -->
+    <!--Giỏ hàng-->
+    <div class="cart">
+        <h2>Giỏ hàng</h2>
+        <ul id="cart-items"></ul>
+        <p>Tổng số sản phẩm: <span id="total-items">0</span></p>
+        <p>Tổng tiền: <span id="total-price">0</span> VNĐ</p>
+    </div>
+    
+    <script>
+        let cart = [];
+    
+        function addToCart(productName, price) {
+            cart.push({ name: productName, price: price });
+            updateCart();
+        }
+    
+        function updateCart() {
+            const cartItems = document.getElementById('cart-items');
+            const totalItems = document.getElementById('total-items');
+            const totalPrice = document.getElementById('total-price');
+    
+            cartItems.innerHTML = '';
+            let itemCount = 0;
+            let totalPriceValue = 0;
+    
+            cart.forEach(product => {
+                const listItem = document.createElement('li');
+                listItem.textContent = `${product.name} - Giá: ${product.price} VNĐ`;
+                cartItems.appendChild(listItem);
+    
+                itemCount++;
+                totalPriceValue += product.price;
+            });
+    
+            totalItems.textContent = itemCount;
+            totalPrice.textContent = totalPriceValue;
+        }
+    </script>
+    <!--End giỏ hàng-->
+</body>
+</html>

@@ -1,0 +1,336 @@
+*{
+    font-family:'Times New Roman', Times, serif;
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+:root{
+    --primary:#cfaa86;
+    --secondary:#6F7E8C;
+    --box:#fff;
+    --main:#333;
+    --nav:#e2b980;
+    --nava:#dcac6e;
+}
+body{
+    width: 100%;
+    position: relative;
+    height: 100%;
+}
+/* Header */
+.containerr{
+    max-width: 960px;
+    margin: 0 auto;
+}
+.header{
+    background-color: var(--primary);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 5px 0;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    
+}
+#logo img{  
+    max-width: 150px;
+    height: auto;
+    margin-left: 50px;
+}
+.main-menu{
+    display: flex;
+    list-style: none;
+    margin-top: 40px;
+    padding: 0;
+    margin-left: 25px;
+}
+.main-menu li{
+    position: relative;
+}
+.main-menu li a{
+    text-decoration: none;
+    color: var(--box);
+    display: block;
+    padding: 18px 20px;
+}
+/* Navigation */
+.main-menu ul.sub-menu{
+    position: absolute;
+    background-color: var(--nav);
+    margin-top: 8px;
+    list-style: none;
+    width: 200px;
+    line-height: 25px;
+    display: none;
+}
+.main-menu li:hover ul.sub-menu{
+    display: block;
+    z-index: 1;
+}
+.main-menu ul.sub-menu a{
+    padding: 8px 15px;
+    border-bottom: 1px solid #fff;
+}
+.main-menu ul.sub-menu li:hover a{
+    background-color: var(--nava);
+}
+.main-menu ul.sub-menu li:last-child a {
+    border: none;
+}
+/* End navigation */
+.main-menu>li>a{
+    position: relative;
+}
+.main-menu>li>a::before{
+    content: "";
+    height: 1px;
+    width: 0;
+    background-color: var(--main);
+    position: absolute;
+    bottom: 1px;
+    left: 0;
+}
+.main-menu>li:hover>a::before{
+    width: 100%;
+}
+.search-container {
+    margin-bottom: 10px;
+    margin-left: 23px;
+}
+.search-container form {
+    position: relative;
+    width: 290px;
+}
+.search-container input[type=text] {
+    width: 300px;
+    padding: 13px;
+    border: 1px solid #333;
+    border-radius: 32px;
+    box-sizing: border-box;
+}
+.search-container button {
+    position: absolute;
+    right: 0;
+    top: 0 ;
+    margin: 5px 6px;
+    border: none;
+    cursor: pointer;
+    border-radius: 50%;
+    background-color: #fff;
+}
+
+.login_header{
+    background-color: var(--primary);
+    max-width: 50px;
+    width: 100%;
+    min-height: 50px;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+    padding: 9px;
+    margin-left: 46px;
+    margin-right: 15px;
+    margin-bottom: 10px;
+}
+.cart_header{
+    background-color: var(--primary);
+    max-width: 50px;
+    width: 100%;
+    min-height: 50px;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+    padding: 9px;
+    margin-right:50px;
+    margin-left: 25px;
+    margin-bottom: 10px;
+}
+.totalQuantity{
+    position: absolute;
+    top: 77px;
+    right: 65px;
+    font-size: x-large;
+    background-color: rgb(227, 60, 60);
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    color: var(--box);
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateX(20px);
+}
+.totalQuantity:hover{
+    background-color: brown;
+}
+/* End header */
+
+/* Main */
+.main-sp{
+    max-width: 1170px;
+    margin: 20px auto;
+    font-weight: 400;
+}
+.namesp{
+    text-align: center;
+    margin: 40px 0;
+}
+h2{
+    font-size: 25px;
+    color: peru;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    border-bottom: 2px solid #333;
+    display: inline-block;
+}
+ul.products{
+    display:flex;   
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style: none;
+}
+ul.products li{
+    flex-basis: 25%;
+    padding-left: 15px;
+    padding-right: 15px;
+    box-sizing: border-box;
+    margin-bottom: 35px;
+}
+ul.products li img{
+    max-width: 100%;
+    height: auto;
+}
+ul.products li .products-top img{
+    display: block;
+}
+.button{
+    position:relative;
+    width: 100%;
+    margin-top: 5px;
+    color: #fff;
+    background-color: var(--primary);
+    display: inline-block;
+    padding: 10px 10px;
+    text-transform: none;
+    font-size: 16px;
+    border: none;
+}
+.button:hover{
+    background-color: #e2b980;
+}
+ul.products li .product-info{
+    padding: 2px 0;
+    font-weight: 500;
+}
+ul.products li .product-info a{
+    display: block;
+    text-decoration: none;
+}
+ul.products li .product-info a.product-cat{
+    font-size: 12px;
+    text-transform: uppercase;
+    color: var(--main);
+    padding: 5px 0;
+}
+ul.products li .product-info a.product-name{
+    color: var(--menu);
+    padding: 2px 0;
+}
+ul.products li .product-info .product-price{
+    color: var(--menu);
+    padding: 1px 0;
+}
+.box{
+    text-align: center;
+    font-size: 18px;
+    margin: 10px 35%;
+    text-decoration:none;
+}
+.box1{
+    background-color: var(--nav);
+    border-radius: 8px;
+    width: 100px;
+    height: 35px;
+    padding-top: 5px;
+}
+.box a{
+    text-decoration: none;
+    color: var(--main);
+}
+
+/* Nút quay lại đầu trang */
+.backtop{
+    width: 50px;
+    height: 50px;
+    background: var(--nav);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 40px;
+    right: 20px;
+    cursor: pointer;
+    font-weight: bold;
+}
+/* End Nút quay lại đầu trang */
+/* End main */
+
+/* Footer */
+footer{
+    float: left;
+    width: 100%;
+    background-color:var(--primary) ;
+}
+.row{
+    float: left;
+    width: 100%;
+    color: var(--box);
+    min-height: 150px;
+}
+h4{
+    color: var(--main);
+    font-weight:600;
+}
+.boxcenter2{
+    width: 60%;
+    margin: 20px auto;
+}
+.boxfooter1,
+.boxfooter2{
+    width: 22%;
+    float: left;
+}
+footer a{
+    text-decoration: none;
+    color: var(--box);
+}
+.mrr2{
+    margin-right: 8%;
+}
+.boxfooter3{
+    width: 40%;
+    float: left;
+}
+.add{
+    margin: 12px auto;
+    text-decoration: none;
+    font-size: 17px;
+    display: inline-flex;
+}
+.add-logo{
+    width:20px;
+    height: 20px;
+    border-radius: 8px;
+}
+.copyright{
+    text-align: center;
+    color: var(--box);
+    background-color: var(--nava);
+}
+/* End footer */
